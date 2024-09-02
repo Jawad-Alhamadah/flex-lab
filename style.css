@@ -101,3 +101,101 @@
 .card-one-container > div>h3{
    text-align: center;
 }
+
+.page-two-container {
+    display: flex;
+    justify-content: center;
+}
+
+.page-two-container >div {
+    margin-top: 10px;
+    width: 35%;
+    
+}
+
+.img-container{
+    display: flex;
+    width: 45%;
+}
+
+.img-container > img {
+    width:50%;
+    margin-right: 5px;
+}
+
+.view-page-container p{
+    font-size: 1.1em;
+    width: 45ch;
+
+
+}
+
+
+.view-page-container{
+    
+    
+
+ width: 50%;
+}
+
+
+.view-page-container >h2{
+
+    font-size: 2em;
+   }
+   
+
+.view-pages-section{
+    width: 100%;
+ 
+}
+
+.view-pages-section{
+ display: flex;
+ flex-direction: row-reverse;
+ font-size:1.1em;
+
+}
+
+.button{
+    color: white;
+    background-color: black;
+    width: 45%;
+    font-size: 1em;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.icons-container{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.icons-divs-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.icons-divs-container>div{
+   width: 10%;
+   border: 1px solid grey;
+   background-color: gray;
+   height: 10vh;
+  
+}
+
+.and-more{
+    text-align: center;
+    margin: 10;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 5vh;
+}
