@@ -7,11 +7,14 @@ background-color: black;
 
 }
 
-
+.white-font {
+    color: white;
+}
+/*   nav start   */
 .nav-container {
     display: flex;
     justify-content: space-between;
-    color: white;
+
     border: 1px solid white;
     height: 10vh;
 }
@@ -39,4 +42,54 @@ background-color: black;
     align-items: center;
     font-size: 1.5em;
     height: 100%;
+}
+
+/*   nav end   */
+.main-text-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    
+}
+
+.main-text-container > p{
+    width: 58ch;
+    text-align: center;
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
+.main-text-container > h1{
+   font-size: 7em;
+}
+
+.cards-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.cards-container > div {
+    width: 80%;
+}
+
+.card-one-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.card-one-container > div{
+    width: 30%;
+}
+.card-one-container > div > img{
+    margin-bottom: 7px;
+    width: 100%;
+}
+
+.card-one-container > div>h3{
+   text-align: center;
 }
