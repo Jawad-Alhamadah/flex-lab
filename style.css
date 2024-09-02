@@ -109,32 +109,32 @@
 
 .page-two-container >div {
     margin-top: 10px;
-    width: 35%;
+    width: 45%;
     
 }
 
 .img-container{
-    display: flex;
+    
     width: 45%;
 }
 
 .img-container > img {
     width:50%;
     margin-right: 5px;
+    box-shadow: 0px 0px 10px 1px rgb(122, 122, 122);
 }
 
 .view-page-container p{
     font-size: 1.1em;
-    width: 45ch;
+    width: 100%;
 
+    margin-top: 10px;
 
 }
 
 
 .view-page-container{
-    
-    
-
+   
  width: 50%;
 }
 
@@ -162,7 +162,7 @@
     background-color: black;
     width: 45%;
     font-size: 1em;
-    margin-top: 5px;
+    margin-top: 10px;
     padding: 10px;
 }
 
@@ -171,21 +171,23 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    height: 30vh;
+    align-items: center;
 }
 
 .icons-divs-container{
-    width: 100%;
+    width: 70%;
     display: flex;
     justify-content: space-evenly;
-
+    margin-top:10px ;
+    margin-bottom: 10px;
 
 }
 
 .icons-divs-container>div{
-   width: 10%;
-   border: 1px solid grey;
-   background-color: gray;
-   height: 10vh;
+   width: 15%;
+ 
+   height: 20vh;
   
 }
 
@@ -198,4 +200,27 @@
     background-color: black;
     width: 100%;
     height: 5vh;
+}
+
+.container{
+    width: 80%
+}
+
+.icons-divs-container >div>img{
+    width: 100%;
+    transition: 0.3s;
+}
+
+.icons-divs-container >div>img:hover{
+    transform: translateY(-5vh);
+ 
+}
+
+
+.img-slide-1{
+transform: translateX(1vw);
+}
+
+.img-slide-2{
+   transform:  translateY(-7vh) translateX(17vw);
 }
